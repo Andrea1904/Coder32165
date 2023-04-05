@@ -1,0 +1,31 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.6.0",
+    "@apollo/server-plugin-landing-page-graphql-playground": "^4.0.0",
+    "@faker-js/faker": "^7.6.0",
+    "@graphql-yoga/plugin-sofa": "^1.8.0",
+    "@hapi/boom": "^10.0.1",
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "graphql": "^16.6.0",
+    "graphql-http": "^1.17.1",
+    "graphql-yoga": "^3.8.0",
+    "jsonwebtoken": "^9.0.0",
+    "nodemailer": "^6.9.1",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "sequelize": "^6.30.0"
+  }
+}

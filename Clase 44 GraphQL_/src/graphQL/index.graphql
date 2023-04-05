@@ -1,0 +1,28 @@
+type Article {
+  title: String
+  author: User!
+  slug: String!
+  content: String!
+}
+
+type User {
+  name: String!
+  email: String!
+  articles: [Article]
+  id: String!
+}
+
+type Query {
+  """
+  Obtiene una lista de usuarios
+  """
+  users: [User]
+  """
+  Retorna un Usuario identificado por id
+  """
+  user(id: String!): User!
+  """
+  Obtiene una lista de articulos
+  """
+  articles: [Article]
+}
